@@ -26,6 +26,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -74,13 +75,13 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="378" y="31" key="CommitChangelistDialog2" timestamp="1577848517861">
+    <state x="378" y="31" key="CommitChangelistDialog2" timestamp="1577848757526">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
-    <state x="378" y="31" key="CommitChangelistDialog2/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577848517861" />
-    <state x="397" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577848555023">
+    <state x="378" y="31" key="CommitChangelistDialog2/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577848757526" />
+    <state x="397" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577848760764">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
-    <state x="397" y="252" key="Vcs.Push.Dialog.v2/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577848555023" />
+    <state x="397" y="252" key="Vcs.Push.Dialog.v2/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577848760764" />
   </component>
 </project>
