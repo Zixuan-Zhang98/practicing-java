@@ -1,5 +1,6 @@
 package com.zixuan.jdbc.demo1;
 
+import com.mysql.cj.jdbc.Driver;
 import org.junit.Test;
 
 import java.sql.Connection;
@@ -13,6 +14,7 @@ public class JDBCDemo1 {
     public void demo1() {
         try {
             // 1. register Driver
+//            DriverManager.registerDriver(new Driver()); // This line will make Driver to be registered twice
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             // 2. create connection
