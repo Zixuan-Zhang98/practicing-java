@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c3b0a9c-d107-4aac-9411-877514bb99e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zixuan/jdbc/demo1/JDBCDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practicing-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practicing-java.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,11 +33,42 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="JDBCDemo1.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practicing-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zixuan.jdbc.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zixuan.jdbc.demo1" />
+      <option name="MAIN_CLASS_NAME" value="com.zixuan.jdbc.demo1.JDBCDemo1" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JDBCDemo1.demo1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -53,8 +92,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577848493116</updated>
-      <workItem from="1577848494753" duration="246000" />
+      <workItem from="1577848494753" duration="1777000" />
     </task>
+    <task id="LOCAL-00001" summary="Add configuration files">
+      <created>1577848757657</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577848757657</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add configuration files">
+      <created>1577848903181</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577848903181</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,15 +127,45 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add configuration files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add configuration files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="378" y="31" key="CommitChangelistDialog2" timestamp="1577848757526">
+    <state x="397" y="182" key="#Project_Structure" timestamp="1577850268661">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
-    <state x="378" y="31" key="CommitChangelistDialog2/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577848757526" />
-    <state x="397" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577848760764">
+    <state x="397" y="182" key="#Project_Structure/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577850268661" />
+    <state x="378" y="31" key="CommitChangelistDialog2" timestamp="1577848903069">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
-    <state x="397" y="252" key="Vcs.Push.Dialog.v2/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577848760764" />
+    <state x="378" y="31" key="CommitChangelistDialog2/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577848903069" />
+    <state width="1358" height="248" key="GridCell.Tab.0.bottom" timestamp="1577850359173">
+      <screen x="37" y="23" width="1643" height="1027" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.0.bottom/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577850359173" />
+    <state width="1358" height="248" key="GridCell.Tab.0.center" timestamp="1577850359172">
+      <screen x="37" y="23" width="1643" height="1027" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.0.center/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577850359172" />
+    <state width="1358" height="248" key="GridCell.Tab.0.left" timestamp="1577850359171">
+      <screen x="37" y="23" width="1643" height="1027" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.0.left/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577850359171" />
+    <state width="1358" height="248" key="GridCell.Tab.0.right" timestamp="1577850359172">
+      <screen x="37" y="23" width="1643" height="1027" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.0.right/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577850359172" />
+    <state x="397" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577848908450">
+      <screen x="37" y="23" width="1643" height="1027" />
+    </state>
+    <state x="397" y="252" key="Vcs.Push.Dialog.v2/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577848908450" />
+    <state x="501" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577848980654">
+      <screen x="37" y="23" width="1643" height="1027" />
+    </state>
+    <state x="501" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577848980654" />
+    <state width="600" height="440" key="javadoc.popup" timestamp="1577849825938">
+      <screen x="37" y="23" width="1643" height="1027" />
+    </state>
+    <state width="600" height="440" key="javadoc.popup/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577849825938" />
   </component>
 </project>
