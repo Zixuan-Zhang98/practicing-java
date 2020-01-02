@@ -37,6 +37,10 @@ public class Person {
         System.out.println("Run!");
     }
 
+    private String sayHello(String name) {
+       return "Hello " + name;
+    }
+
     @Override
     public String toString() {
         return "Person{" +

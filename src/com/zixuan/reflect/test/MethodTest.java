@@ -35,7 +35,7 @@ public class MethodTest {
         // 私有方法需要设置一个可访问的权限
         method.setAccessible(true);
         // 执行方法
-        method.invoke(person); // 相当于person.eat()
+        method.invoke(person, null); //没有参数传NULL也可以
     }
 
     @Test
@@ -48,9 +48,11 @@ public class MethodTest {
         // 实例化
         Person person = (Person) class1.getConstructor().newInstance();
         // 获得方法
-        Method method = class1.getMethod("eat");
+        Method method = class1.getDeclaredMethod("sayHello", String.class);
+        // 私有方法需要设置一个可访问的权限
+        method.setAccessible(true);
         // 执行方法
-        method.invoke(person);
+        System.out.println(method.invoke(person, "Z"));
     }
 
 }
