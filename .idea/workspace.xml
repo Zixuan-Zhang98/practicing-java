@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c3b0a9c-d107-4aac-9411-877514bb99e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zixuan/factory/Software.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zixuan/factory/i18n/Chinese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zixuan/factory/i18n/I18N.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zixuan/factory/i18n/I18NFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zixuan/factory/i18n/Italian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zixuan/factory/i18n/Spanish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zixuan/factory/Software.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zixuan/factory/Software.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zixuan/factory/i18n/I18NFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zixuan/factory/i18n/I18NFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,19 +57,16 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MethodTest.demo3">
-    <configuration name="FieldTest.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Software">
+    <configuration name="Software" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zixuan.factory.Software" />
       <module name="practicing-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zixuan.reflect.test.*" />
+          <option name="PATTERN" value="com.zixuan.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zixuan.reflect.test" />
-      <option name="MAIN_CLASS_NAME" value="com.zixuan.reflect.test.FieldTest" />
-      <option name="METHOD_NAME" value="demo1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Software" />
         <item itemvalue="JUnit.MethodTest.demo3" />
         <item itemvalue="JUnit.MethodTest.demo2" />
         <item itemvalue="JUnit.MethodTest.demo1" />
         <item itemvalue="JUnit.FieldTest.demo2" />
-        <item itemvalue="JUnit.FieldTest.demo1" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577848493116</updated>
       <workItem from="1577848494753" duration="23994000" />
-      <workItem from="1577947945127" duration="505000" />
+      <workItem from="1577947945127" duration="1855000" />
     </task>
     <task id="LOCAL-00001" summary="Add configuration files">
       <created>1577848757657</created>
@@ -254,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577947969900</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add i18n files">
+      <created>1577948463206</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577948463206</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +281,8 @@
     <MESSAGE value="Add second JDBC file which closes all resources at the finally block&#10;&#10;manually set conn as null will trigger garbage collection earlier" />
     <MESSAGE value="Add JDBC files" />
     <MESSAGE value="Add reflect files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add reflect files" />
+    <MESSAGE value="Add i18n files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add i18n files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="397" y="182" key="#Project_Structure" timestamp="1577850268661">
@@ -292,31 +293,31 @@
       <screen x="36" y="23" width="1644" height="1027" />
     </state>
     <state x="628" y="254" key="#com.intellij.ide.util.MemberChooser/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577920377354" />
-    <state x="378" y="31" key="CommitChangelistDialog2" timestamp="1577947969772">
+    <state x="378" y="31" key="CommitChangelistDialog2" timestamp="1577948463083">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
     <state x="377" y="31" key="CommitChangelistDialog2/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577923014210" />
-    <state x="378" y="31" key="CommitChangelistDialog2/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577947969772" />
-    <state width="1358" height="248" key="GridCell.Tab.0.bottom" timestamp="1577946721800">
+    <state x="378" y="31" key="CommitChangelistDialog2/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577948463083" />
+    <state width="1229" height="248" key="GridCell.Tab.0.bottom" timestamp="1577951095732">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
     <state width="1358" height="248" key="GridCell.Tab.0.bottom/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577923317112" />
-    <state width="1358" height="248" key="GridCell.Tab.0.bottom/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577946721800" />
-    <state width="1358" height="248" key="GridCell.Tab.0.center" timestamp="1577946721799">
+    <state width="1229" height="248" key="GridCell.Tab.0.bottom/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577951095732" />
+    <state width="1229" height="248" key="GridCell.Tab.0.center" timestamp="1577951095731">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
     <state width="1358" height="248" key="GridCell.Tab.0.center/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577923317111" />
-    <state width="1358" height="248" key="GridCell.Tab.0.center/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577946721799" />
-    <state width="1358" height="248" key="GridCell.Tab.0.left" timestamp="1577946721799">
+    <state width="1229" height="248" key="GridCell.Tab.0.center/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577951095731" />
+    <state width="1229" height="248" key="GridCell.Tab.0.left" timestamp="1577951095730">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
     <state width="1358" height="248" key="GridCell.Tab.0.left/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577923317111" />
-    <state width="1358" height="248" key="GridCell.Tab.0.left/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577946721799" />
-    <state width="1358" height="248" key="GridCell.Tab.0.right" timestamp="1577946721800">
+    <state width="1229" height="248" key="GridCell.Tab.0.left/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577951095730" />
+    <state width="1229" height="248" key="GridCell.Tab.0.right" timestamp="1577951095731">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
     <state width="1358" height="248" key="GridCell.Tab.0.right/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577923317112" />
-    <state width="1358" height="248" key="GridCell.Tab.0.right/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577946721800" />
+    <state width="1229" height="248" key="GridCell.Tab.0.right/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577951095731" />
     <state x="298" y="155" key="SettingsEditor" timestamp="1577940007781">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
