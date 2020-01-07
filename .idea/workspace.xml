@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2c3b0a9c-d107-4aac-9411-877514bb99e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zixuan/factory/Software.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zixuan/factory/Software.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zixuan/factory/i18n/I18NFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zixuan/factory/i18n/I18NFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -53,6 +51,7 @@
       <recent name="com.zixuan.jdbc.demo1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
@@ -168,7 +167,8 @@
       <option name="presentableId" value="Default" />
       <updated>1577848493116</updated>
       <workItem from="1577848494753" duration="23994000" />
-      <workItem from="1577947945127" duration="1855000" />
+      <workItem from="1577947945127" duration="2687000" />
+      <workItem from="1578244363449" duration="254000" />
     </task>
     <task id="LOCAL-00001" summary="Add configuration files">
       <created>1577848757657</created>
@@ -254,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577948463206</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add factory design pattern files">
+      <created>1577951117562</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1577951117562</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +289,8 @@
     <MESSAGE value="Add JDBC files" />
     <MESSAGE value="Add reflect files" />
     <MESSAGE value="Add i18n files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add i18n files" />
+    <MESSAGE value="Add factory design pattern files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add factory design pattern files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="397" y="182" key="#Project_Structure" timestamp="1577850268661">
@@ -293,41 +301,41 @@
       <screen x="36" y="23" width="1644" height="1027" />
     </state>
     <state x="628" y="254" key="#com.intellij.ide.util.MemberChooser/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577920377354" />
-    <state x="378" y="31" key="CommitChangelistDialog2" timestamp="1577948463083">
+    <state x="378" y="31" key="CommitChangelistDialog2" timestamp="1577951117419">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
     <state x="377" y="31" key="CommitChangelistDialog2/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577923014210" />
-    <state x="378" y="31" key="CommitChangelistDialog2/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577948463083" />
-    <state width="1229" height="248" key="GridCell.Tab.0.bottom" timestamp="1577951095732">
+    <state x="378" y="31" key="CommitChangelistDialog2/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577951117419" />
+    <state width="1229" height="248" key="GridCell.Tab.0.bottom" timestamp="1577981327311">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
     <state width="1358" height="248" key="GridCell.Tab.0.bottom/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577923317112" />
-    <state width="1229" height="248" key="GridCell.Tab.0.bottom/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577951095732" />
-    <state width="1229" height="248" key="GridCell.Tab.0.center" timestamp="1577951095731">
+    <state width="1229" height="248" key="GridCell.Tab.0.bottom/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577981327311" />
+    <state width="1229" height="248" key="GridCell.Tab.0.center" timestamp="1577981327310">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
     <state width="1358" height="248" key="GridCell.Tab.0.center/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577923317111" />
-    <state width="1229" height="248" key="GridCell.Tab.0.center/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577951095731" />
-    <state width="1229" height="248" key="GridCell.Tab.0.left" timestamp="1577951095730">
+    <state width="1229" height="248" key="GridCell.Tab.0.center/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577981327310" />
+    <state width="1229" height="248" key="GridCell.Tab.0.left" timestamp="1577981327309">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
     <state width="1358" height="248" key="GridCell.Tab.0.left/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577923317111" />
-    <state width="1229" height="248" key="GridCell.Tab.0.left/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577951095730" />
-    <state width="1229" height="248" key="GridCell.Tab.0.right" timestamp="1577951095731">
+    <state width="1229" height="248" key="GridCell.Tab.0.left/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577981327309" />
+    <state width="1229" height="248" key="GridCell.Tab.0.right" timestamp="1577981327310">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
     <state width="1358" height="248" key="GridCell.Tab.0.right/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577923317112" />
-    <state width="1229" height="248" key="GridCell.Tab.0.right/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577951095731" />
+    <state width="1229" height="248" key="GridCell.Tab.0.right/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577981327310" />
     <state x="298" y="155" key="SettingsEditor" timestamp="1577940007781">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
     <state x="297" y="155" key="SettingsEditor/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577921182432" />
     <state x="298" y="155" key="SettingsEditor/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577940007781" />
-    <state x="397" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577947975536">
+    <state x="397" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577951120588">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
     <state x="396" y="252" key="Vcs.Push.Dialog.v2/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577930521455" />
-    <state x="397" y="252" key="Vcs.Push.Dialog.v2/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577947975536" />
+    <state x="397" y="252" key="Vcs.Push.Dialog.v2/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577951120588" />
     <state x="501" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577848980654">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
