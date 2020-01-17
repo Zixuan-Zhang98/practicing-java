@@ -169,6 +169,8 @@
       <workItem from="1577848494753" duration="23994000" />
       <workItem from="1577947945127" duration="2687000" />
       <workItem from="1578244363449" duration="254000" />
+      <workItem from="1578365032464" duration="28000" />
+      <workItem from="1579235499848" duration="376000" />
     </task>
     <task id="LOCAL-00001" summary="Add configuration files">
       <created>1577848757657</created>
@@ -261,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577951117562</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add factory design pattern files">
+      <created>1578365042069</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1578365042069</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,11 +310,12 @@
       <screen x="36" y="23" width="1644" height="1027" />
     </state>
     <state x="628" y="254" key="#com.intellij.ide.util.MemberChooser/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577920377354" />
-    <state x="378" y="31" key="CommitChangelistDialog2" timestamp="1577951117419">
-      <screen x="37" y="23" width="1643" height="1027" />
+    <state x="349" y="8" key="CommitChangelistDialog2" timestamp="1578365041676">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="377" y="31" key="CommitChangelistDialog2/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577923014210" />
     <state x="378" y="31" key="CommitChangelistDialog2/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577951117419" />
+    <state x="349" y="8" key="CommitChangelistDialog2/-425.-1440.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1578365041676" />
     <state width="1229" height="248" key="GridCell.Tab.0.bottom" timestamp="1577981327311">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
@@ -331,11 +341,12 @@
     </state>
     <state x="297" y="155" key="SettingsEditor/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577921182432" />
     <state x="298" y="155" key="SettingsEditor/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577940007781" />
-    <state x="397" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577951120588">
-      <screen x="37" y="23" width="1643" height="1027" />
+    <state x="368" y="234" key="Vcs.Push.Dialog.v2" timestamp="1578365047706">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="396" y="252" key="Vcs.Push.Dialog.v2/-425.-1417.2560.1417/36.23.1644.1027@36.23.1644.1027" timestamp="1577930521455" />
     <state x="397" y="252" key="Vcs.Push.Dialog.v2/-425.-1417.2560.1417/37.23.1643.1027@37.23.1643.1027" timestamp="1577951120588" />
+    <state x="368" y="234" key="Vcs.Push.Dialog.v2/-425.-1440.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1578365047706" />
     <state x="501" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577848980654">
       <screen x="37" y="23" width="1643" height="1027" />
     </state>
